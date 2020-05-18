@@ -1,0 +1,8 @@
+@import '../base/settings';
+.dim {
+    color: $gray-md
+}
+a.bordered {
+    border-bottom: 1px dotted #007fd4;
+    color: #007fd4;
+}

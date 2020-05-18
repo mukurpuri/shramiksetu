@@ -1,0 +1,14 @@
+@import "../base/mixins";
+ul {
+    &.flat-list {
+        list-style: none;
+        overflow: hidden;
+        li {
+            display: inline-block;
+            margin-right: 0.5rem;
+            &.active {
+                font-weight: bold;
+            }
+        }
+    }
+}

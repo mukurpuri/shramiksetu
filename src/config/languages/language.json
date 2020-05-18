@@ -1,0 +1,56 @@
+[
+    {
+        "language": "en",
+        "title": {
+            "name": "Shramik Setu",
+            "header": "Shramik Setu - Connecting 500 Million Workers in India",
+            "moto": "Connecting Workers in India"
+        },
+        "inputs": {
+            "phoneNumber": "Enter your Mobile Number",
+            "submitPhoneNumber": "Create your Account"
+        },
+        "links": {
+            "alreadyLogin": "Already have an account? Log in",
+            "createAccount": "Not a user? Create new Account"
+        },
+        "loginPage": {
+            "loginButton": "Login",
+            "title": "Welcome, Log in to your Account"
+        },
+        "otpPage": {
+            "title": "Check your Inbox",
+            "subtitle": "You will receive an OTP soon",
+            "placeholderInputText": "Please enter your 6 didits OTP",
+            "submitButton": "Submit",
+            "otpErrorNotreceived": "OTP is not correct"
+        }
+    },
+    {
+        "language": "hi",
+        "title": {
+            "name": "श्रमिक सेतु",
+            "header": "श्रमिक सेतु | हमारा लक्ष्य - भारत में सभी श्रमिकों को जोड़ना",
+            "moto": "हम भारत में सभी श्रमिकों को जोड़ रहे हैं"
+        },
+        "inputs": {
+            "phoneNumber": "यहां अपना मोबाइल नंबर डालें",
+            "submitPhoneNumber": "अपना अकाउंट बनाएँ"
+        },
+        "links": {
+            "alreadyLogin": "क्या पहले से एक अकाउंट है? लॉग इन करें",
+            "createAccount": "यूजर नहीं है? नया अकाउंट बनाएँ"
+        },
+        "loginPage": {
+            "loginButton": "लॉग इन करें",
+            "title": "अपने अकाउंट में लॉग इन करें"
+        },
+        "otpPage": {
+            "title": "अपने SMS इनबॉक्स के अंदर देखें",
+            "subtitle": "आपको जल्द ही एक ओटीपी प्राप्त होगा",
+            "placeholderInputText": "6 अंकों का ओटीपी दर्ज करें",
+            "submitButton": "अपने अकाउंट में प्रवेश करें",
+            "otpErrorNotreceived": "ओटीपी सही नहीं है"
+        }
+    }
+]

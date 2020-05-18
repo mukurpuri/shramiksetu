@@ -1,0 +1,18 @@
+[class^="container-"] {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gap;
+  padding-right: $gap;
+  padding-bottom: 3.5rem;
+}
+.container {
+  padding-bottom: 3.5rem;
+}
+.container-lg {
+  max-width: $screen-lg;
+}
+
+.container-md {
+  max-width: $screen-md;
+}

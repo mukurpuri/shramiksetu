@@ -1,0 +1,38 @@
+.card {
+    position: relative;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #dddbda;
+    border-radius: .25rem;
+    background-clip: padding-box;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    &.no-shadow {
+        box-shadow: none;
+    }
+    &.dashed {
+        border: 1px dashed #dddbda;
+    }
+    &.dotted {
+        border: 1px dotted #dddbda;
+    }
+    .card-header {
+        padding: .75rem 1rem;
+        margin: 0 0 .75rem;
+        border-bottom: 1px solid #dddbda;
+        &.greyed {
+            background: #0000000a;
+        }
+    }
+    .card-body {
+        margin-top: .75rem;
+        margin-bottom: .75rem;
+    }
+    .card-body-inner {
+        padding: 0 1rem;
+    }
+    .card-footer {
+        border-top: 1px solid #cacaca;
+        padding: 1rem 0.75rem;
+        overflow: hidden;
+    }
+}

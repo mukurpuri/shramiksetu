@@ -1,0 +1,48 @@
+.caretDownSelect {
+    position: relative;
+    &::after {
+        position: absolute;
+        content: "";
+        font-size: 20px;
+        right: 12px;
+        top: 12px;
+        width: 0px;
+        height: 0px;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #8a8787;
+    }
+    &.medium {
+        select {
+            font-size: 1rem;
+            padding: 0.5rem 8px;
+            height: 40px;
+        }
+        &::after {
+            top: 16px;
+            right: 15px;
+        }
+    }
+}
+select {
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    background: white;
+    height: 28px;
+    border: 1px solid #c8c3c3;
+    border-radius: 2px;
+    padding: 0 8px;
+    outline: none;
+    position: relative;
+    font-size: 0.8rem;
+}
+.addSelect {
+    &::after {
+        position: absolute;
+        content: "+";
+        font-size: 20px;
+        right: 20px;
+        top: 6px;
+        color: #8a8787;
+    }
+}
